@@ -25,8 +25,8 @@ A first look at recursion
     - Recurse. If the end state has not been reached, the recursive function will be called inside of itself.
 
 1. Here is an example of recursively counting to 100:
-    <code> const rCount = (num = 0) => {
-        if(num === 101){
+    ```const rCount = (num = 0) => {
+        if(num === 101){ 
             return num;
         } else {
             console.log(num);
@@ -34,7 +34,7 @@ A first look at recursion
             return rCount(num)
         }
     }
-    </code>
+   ```
 
 1. As you can see, the recursive function is continuously given the parameter num in order to keep track of how far along the function has gotten. An alternative way of keeping track of our number is to wrap the recursive function inside of a non-recursive function's scope.
     <code> const count = () => {
