@@ -58,4 +58,8 @@ Using these two patterns, write a recursive function that will find the maximum 
 
 You can warm up by writing a simpler function that just console.logs each element in a given array.
 
+## Bonus algorithms
+
+Some classic recursion examples include calculating the Xth number in the Fibonacci sequence, calculating the factorial of a number, and using binary search to scan a sorted array for a specific value. 
+
 *Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
