@@ -17,8 +17,6 @@ A first look at recursion
 
 ## Getting Started
 
-1. Clone this repository
-
 1. A recursive function is simply a function that keeps calling itself until the desired output has been reached. The necessary components of recursion are:
     - A break case. This is usually an if check that determines whether the desired end state has been reached, and if so, returns the answer.
     - Advancing the solution towards the break case. Much like a while loop, we must be sure that a recursive function will advance towards the break case, otherwise it may recurse forever.
